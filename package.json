@@ -1,0 +1,30 @@
+{
+  "name": "quanlychitieu",
+  "version": "1.0.0",
+  "description": "quan ly chi tieu app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js index.js --ignore client",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\" "
+  },
+  "keywords": [],
+  "author": "khacthiennguyen",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "concurrently": "^8.2.2",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.10",
+    "dayjs-plugin-utc": "^0.1.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6",
+    "moment": "^2.29.4",
+    "mongoose": "^8.0.2",
+    "morgan": "^1.10.0",
+    "uuid": "^9.0.1",
+    "xlsx": "^0.18.5"
+  }
+}

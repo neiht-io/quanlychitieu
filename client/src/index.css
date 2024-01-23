@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin : 0;
+  box-sizing: border-box;
+}
+
+.bg-body-tertiary{
+  background-color: #93adc6 !important ;
+
+}
+
+.content {
+  height: 150vh;
+}
+
+.table-content-box{
+  border-radius: 20px; 
+  /* background-color: #19374b;  */
+  padding: 15px; 
+  border: 2px solid red;
+  margin: 15px;
+
+}
+.analytics-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Chia thành 2 cột bằng nhau */
+  gap: 16px; /* Cách nhau 16px giữa các cột */
+}
+
+
+.register-page{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100 hv;
+}
+
+
+/* transection page */
+.filters{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding : 15px 20px;
+  color: aliceblue;
+}
+
+.filters-box{
+  border-radius: 25px; 
+  background-color: #19374b; 
+  padding: 15px; 
+  margin: 20px;
+}
+
+/* antd icons */
+.switch-icons {
+  border: 1px solid rgba(248, 248, 248, 0.941);
+  border-radius: 5px;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px ;
+
+}
+
+.anticon svg {
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.3s ease; /* Thêm transition cho thuộc tính color */
+}
+
+.active-icon {
+  color: rgb(255, 255, 255);
+}
+
+.inactive-icon {
+  color: rgb(145, 113, 113);
+}
+
+.switch-icons .anticon {
+  margin: 0 5px; /* Để tạo khoảng cách giữa các biểu tượng */
+}
+
+/* Optional: Thêm hover effect */
+.anticon:hover {
+  color: white; /* Màu khi hover */
+}
+
+
+
